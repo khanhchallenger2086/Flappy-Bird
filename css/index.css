@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 400px;
+	height: 500px;
+	display: block;
+	margin: 80px auto;
+	background-image: url(../images/bg.png);
+	background-size: cover;
+	box-shadow: 0px 0px 10px black;
+	position: relative;
+	overflow: hidden;
+}
+
+#bird {
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+
+.pole {
+	height: 170px;
+	width: 40px;
+	background-color: green;
+	position: absolute;
+	top: 0;
+	right: -46px;
+	border: 3px solid black;
+	border-top-width: 0px;
+}
+
+#pole_2 {
+	bottom: 0px;
+	top: auto;
+	border-top-width: 3px;
+	border-bottom-width: 0px;
+}
+
+#start {
+	padding: 10px 20px;
+	background-color: lightblue;
+	border: 0px;
+	border-radius: 3px;
+	color: black;
+	font-size: 30px;
+	display: block;
+	margin: auto;
+}
+
+#score {
+	position: absolute;
+    font-size: 70px;
+    color: pink;
+    font-weight: 700;
+    top: 10%;
+    left: 44%;
+}
+
+#restart {
+	position: absolute;
+	padding: 10px 20px;
+	background-color: lightblue;
+	border: 0px;
+	border-radius: 3px;
+	color: black;
+	font-size: 30px;
+	display: block;
+	margin: auto;
+	left: 30%;
+	top: 40%;
+	display: none;
+}
